@@ -18,11 +18,6 @@ class CategoryController extends Controller
 
     public function edit($id)
     {
-
-        //$categoryedit = Category::all();
-        //return view('admin/categoryEdit',compact('categoryedit'));
-        //$categoryedit = Category::findOrFail($slug);
-
         $categoryedit = Category::findOrFail($id);
 
         return view('admin/categoryEdit', compact('categoryedit'));

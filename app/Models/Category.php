@@ -22,6 +22,7 @@ class Category extends Model
     const UPDATED_AT = 'guncelleme_tarihi';
     const DELETED_AT = 'silinme_tarihi';
 
+
     public static function statusCode($status){
 
         $data_ = [
