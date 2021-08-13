@@ -28,7 +28,6 @@ class ProductController extends Controller
 
         $categorylist = Category::where('status', '=', 'a')->get(['id', 'title']);
 
-
         $productedit = Product::findOrFail($id);
 
         return view('admin/productEdit', compact('productedit', 'categorylist'));

@@ -63,14 +63,14 @@
                     </li>
 
                     <li class="sidebar-item  ">
-                        <a href="{{route('productindex')}}" class='sidebar-link'>
+                        <a href="{{route('userindex')}}" class='sidebar-link'>
                             <i class="bi bi-file-earmark-medical-fill"></i>
                             <span>Kullanıcılar</span>
                         </a>
                     </li>
 
                     <li class="sidebar-item  ">
-                        <a href="{{route('productindex')}}" class='sidebar-link'>
+                        <a href="{{route('cartindex')}}" class='sidebar-link'>
                             <i class="bi bi-file-earmark-medical-fill"></i>
                             <span>Satış İşlemleri</span>
                         </a>
